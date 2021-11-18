@@ -14,9 +14,17 @@ int Player::getPoints() const
 {
 	return points;
 }
+int Player::getTurns() const{
+  return turns;
+}
+
 void Player::setName(const string& new_name)
 {
 	name = new_name;
+}
+void Player::setTurns(int new_turns)
+{
+	turns = new_turns;
 }
 void Player::setPoints(int new_points)
 {
